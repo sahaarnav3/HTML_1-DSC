@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 411px;
+    height: 665px;
+    background-color: white;
+    position: absolute;
+    top: 49%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+
+.leftcontainer {
+    background: url(img.jpg);
+    background-repeat: no-repeat;
+    width: 870px;
+    height: 653px;
+    box-sizing: border-box;
+    background-size: cover;
+    
+
+}
+
+.forms{
+    position: absolute;
+    top: 55%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    margin: 20px;
+}
+
+h1 {
+    margin: -150px 0px 0px 0px;
+    padding-bottom: 10%;
+    padding-top: 15%;
+    font-family: cursive;
+}
+
+#one {
+    font-family: cursive;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display: -moz-box;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-family: cursive;
+    font-size: 15px;
+    width: 460px;
+    height: 40px;
+    background: url(more.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;
+}
+
+input[type="text"], textarea {
+
+    background-color : #CAF0FF;
+}
+
+input[type="password"], textarea {
+
+    background-color : #CAF0FF;
+}
+
+input[type="submit"]
+{
+    display: box;
+    box-sizing: border-box;
+    width: 140px;
+    height: 35px;
+    border: 2px solid #0096FA;
+    border-radius: 4px;
+    color: #0096FA;
+    font-size: 14px;
+
+}
